@@ -1,0 +1,99 @@
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px; width: 100% ;
+    padding: 10px  5px;
+    box-sizing: border-box;
+    background: none;
+    border-bottom:  1px  solid none;
+    display: inline;
+}nav  .logo{
+
+
+    float: left;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    color:rgb(76, 176, 238);
+    line-height: 32px;
+    
+    
+    }
+    .menu li  a{
+        display: block;
+        line-height: 25px;
+        color:#fff ;
+        padding-top: 0px;
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: bold;
+        
+        text-transform: uppercase;}
+        nav a:hover{
+    background: rgba(58, 161, 235, 0.7);
+    border-radius: 60px;
+    text-decoration: underline;
+    
+        }
+        ul{
+
+            list-style-type: none;
+        }
+        
+        .menu li{
+        font-size: 16px;
+        padding: 15px 30px;
+        
+        }
+        .button {
+        border-bottom: 1px #444 solid;
+        }
+        .button.secondary{
+        border-bottom: 1px rgb(224, 221, 239) solid;
+        }
+        #search{
+            height: 0.7cm; width: 5cm ;
+            margin-left: 250px;
+            border-radius: 10%;}
+            img{
+                height: 500px ; width: 1342px;
+            }
+            .menu{
+                display: flex;
+                flex-wrap: wrap;
+                word-spacing: 3px;
+            }
+            .menu li{
+                display: inline;
+                
+            }
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 3cm;
+    padding: 3cm;
+    font-size: 1cm;
+    color: antiquewhite;
+   font-weight: bold;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+
+}
+h1 {
+    font-style: italic;
+}
+#myVideo {
+   background: fixed;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+  
+        

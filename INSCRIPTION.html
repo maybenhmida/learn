@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./INSCRIPTION.css">
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="301612470_1505243163263684_4801010502457220831_n.mp4" type="video/mp4">
+      </video>
+    <header>    
+        <nav>
+            
+        <ul class="menu">
+            <li><div class="logo">live events</div></li>
+            <li class="button 2"><a href="./projet final.html">Home</a> </li>
+           <li class="item secondary button" > <a href="./INSCRIPTION.html">inscription</a></li>
+          <li class="item button">  <a href="./connexion.html">connexion</a></li>
+           <li > <a href="./creerevenement.html">crée mon évenement</a></li>
+           <li><input id="search" type="text"></li>
+        </ul>
+    
+         
+           
+        
+     </nav>
+    </header>
+    <div class="box">
+        
+    <form  method="post" action="controller.php">
+        <h1 class="titre">creat account</h2>
+        Name : <input type="text" name="name" placeholder="Entrez votre nom"  class="esm"/><br />
+        Email : <input type="email" name="email" placeholder="Entrer votre Email" class="mail" /><br />
+       mot de passe : <input type="password" name "password" placeholder="enter your password" class="code" /> <br />
+       date de naissance : <input type="date" /><br/>
+        <input type="submit" value="Submit" />
+
+    </form>
+</div>
+<script defer src="./inscription.js"></script>
+</body>
+</html>
